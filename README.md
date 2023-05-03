@@ -10,19 +10,6 @@ cd final-ecommerce-project
 npm install
 ```
 
-Next, create a `.env` file in the root directory of the project and add the following environment variables:
-
-```
-NODE_ENV=development
-PORT=5000
-MONGO_URI=<your-mongodb-uri>
-JWT_SECRET=<your-jwt-secret>
-```
-
-Replace `<your-mongodb-uri>` with the URI for your MongoDB database, and `<your-jwt-secret>` with a secret key of your choice.
-
-Once you have set up the environment variables, you can start the development server by running the following command:
-
 ```
 npm run dev
 ```
