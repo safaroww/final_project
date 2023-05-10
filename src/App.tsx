@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.scss';
-import { Style } from './Styles/Style';
+import { Landing } from './pages/Landing/Landing';
 
 function App() {
   return (
    <>
-    <Style />
+    <Landing />
    </>
   );
 }
