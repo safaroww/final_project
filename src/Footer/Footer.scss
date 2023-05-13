@@ -5,6 +5,8 @@
 }
 .footer-section {
     position: relative;
+    padding: 300px 0 0 0;
+    overflow: hidden;
 .box {
     background: #CDEAE1;
     padding: 24px 24px 0;
@@ -13,6 +15,9 @@
     border-radius: 20px;
     display: flex;
     justify-content: space-between;
+    position: absolute;
+    top: 130px;
+    left: 190px;
 
     .sub {
         font-size: 44px;
@@ -57,7 +62,7 @@
     padding: 218px 0 64px;
 
     .container {
-        max-width: 1200px;
+        max-width: 1140px;
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
