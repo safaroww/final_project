@@ -1,6 +1,3 @@
-
-
 export const FlightListing = () => {
-    return <h1>FlightListing</h1>;
-  };
-  
+  return <h1>FlightListing</h1>;
+};
