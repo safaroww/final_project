@@ -1,4 +1,3 @@
 export const AccountPaymentMethods = () => {
-    return <h1>AccountPaymentMethods</h1>;
-  };
-  
+  return <h1>AccountPaymentMethods</h1>;
+};

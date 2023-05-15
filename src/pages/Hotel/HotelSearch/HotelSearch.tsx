@@ -1,4 +1,3 @@
 export const HotelSearch = () => {
-    return <h1>HotelSearch</h1>;
-  };
-  
+  return <h1>HotelSearch</h1>;
+};

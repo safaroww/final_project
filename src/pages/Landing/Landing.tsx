@@ -12,10 +12,27 @@ import { CardActionArea } from '@mui/material';
 import photo_3 from '../../media/Rectangle36.png'
 import stars from '../../media/star.png'
 import google from '../../media/google.png'
+import { Search } from '../../shared/components/search/Search';
+import backgroundimg from './assets/Rectangle 31.png';
+import { NineGrid } from './components/NineGrid/NineGrid';
 
 const Landing = () => {
   return (
     <>
+      <div className="landing">
+        <div className="texts">
+          <div className="first">Helping Others</div>
+          <div className="sec">Live & Travel</div>
+          <div className="third">Special offers to suit your plan</div>
+        </div>
+
+        <div>
+          <img src={backgroundimg} alt="" />
+        </div>
+
+        <Search />
+
+        <NineGrid />
       <div className='box-1'>
         <div className='Image-box'>
           <div className="image-container">
@@ -178,6 +195,7 @@ const Landing = () => {
           </Card>
         </div>
       </div>
+        </div>
     </>
   )
 }
