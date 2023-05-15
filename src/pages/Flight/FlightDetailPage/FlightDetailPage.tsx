@@ -1,6 +1,5 @@
-
+import React from 'react';
 
 export const FlightDetailPage = () => {
-    return <h1>FlightDetailPage</h1>;
-  };
-  
+  return <div>FlightDetailPage</div>;
+};

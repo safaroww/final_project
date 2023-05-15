@@ -1,0 +1,77 @@
+.search {
+    position: relative;
+    max-width: 1184px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: #fff;
+    padding-left: 30px;
+    padding-right: 16px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    bottom: 112px;
+    left: 77px;
+
+
+    .plane,
+    .bed_icon {
+        margin-right: 8px;
+    }
+
+    .plane_text {
+        margin-right: 66px;
+    }
+
+    .forms {
+        display: flex;
+        gap: 24px;
+        justify-content: center;
+
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: end;
+        gap: 24px;
+
+        .button1 {
+            max-width: 189px;
+            background-color: #fff;
+            cursor: pointer;
+            border-radius: 4px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 17px 14.5px;
+            background-color: transparent;
+            border: 1px solid #ffffff;
+
+            .promo {
+                margin-left: 2px;
+                font-family: "Montserrat";
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 17px;
+            }
+        }
+
+        .button2 {
+            max-width: 174px;
+            display: flex;
+            cursor: pointer;
+            background-color: #8dd3bb;
+            border-radius: 4px;
+            justify-content: center;
+            align-items: center;
+            padding: 1px 14px;
+            border: 1px solid #8dd3bb;
+            .promo {
+                margin-left: 2px;
+                font-family: "Montserrat";
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 17px;
+            }
+        }
+    }
+}
