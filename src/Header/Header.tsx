@@ -2,10 +2,10 @@ import React from 'react';
 import FlightIcon from '@mui/icons-material/Flight';
 import BedIcon from '@mui/icons-material/Bed';
 import './Header.scss';
-import Logo from '../Logo/Logo.svg';
-import Logo2 from '../Logo/Logo-White.svg';
-import Pfp from '../MediaTemp/Ellipse 1.png';
-import CheckIco from '../MediaTemp/Vector.svg';
+import Logo from './Logo/Logo.svg';
+import Logo2 from './Logo/Logo-White.svg';
+import Pfp from './MediaTemp/Ellipse 1.png';
+import CheckIco from './MediaTemp/Vector.svg';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 export const Header = () => {
   return <>
@@ -25,11 +25,11 @@ export const Header = () => {
           <img className='logo logo__normal' src={Logo} alt="Logo" />
           <img className='logo logo__transparent' src={Logo2} alt="Logo" />
         </div>
-        <div className="header__acc unlogged">
+        <div className="header__acc ">
           <a href="/#" className='btn__light second-font font-semibold'>Login</a>
           <a className='btn__dark second-font font-semibold' href="/#">Sign up</a>
         </div>
-        <div className="header__acc logged white">
+        <div className="header__acc unlogged white">
           <a href='/#' className="favorite__link btn__light">
             <FavoriteIcon/>
             <p className='second-font font-semibold'>Favourites</p>
