@@ -67,9 +67,78 @@ a{
     
 }
 .btn__light{
-    background-color: #fff;
     color: $blackgreen;
     
     padding: 15px 24px;
     border-radius: 10px;
+}
+.unlogged{
+    display: none;
+}
+.logged{
+    display: flex;
+}
+.favorite__link{
+    display: flex;
+    align-items:center;
+    p{
+        margin-left: 6px;
+    }
+}
+.header__profile__link{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-left: 32px;
+}
+.header__profile__img{
+    position: relative;
+    width: 32px;
+    height: auto;
+    margin-right: 5px;
+
+}
+.header__pfp{
+    width: 100%;
+}
+.check__icon{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+}
+.divider{
+    width: 2px;
+    height: 18px;
+    background-color: $blackgreen;
+}
+.logo__transparent{
+    display: none;
+}
+
+
+// Header transparent, add next to 'header__wrapper' class
+
+.header__transparent{
+    .nav__item{
+        color: #fff !important;
+    }
+    .header__acc{
+        a{
+            color: #fff !important;
+        }
+        .divider{
+            background: #fff !important;
+        }
+    }
+    .logo__normal{
+        display: none;
+
+    }
+    .logo__transparent{
+        display: flex;
+    }
+    .nav__active{
+        border-color: #fff !important;
+    }
 }
