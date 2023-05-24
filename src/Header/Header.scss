@@ -1,0 +1,141 @@
+$blackgreen : #112211;
+$mintgreen : #8DD3BB;
+a{
+    color: $blackgreen;
+    text-decoration: none;
+    &:hover{
+        color: $blackgreen;
+        text-decoration: none;
+    }
+}
+.header__wrapper{
+    margin: 0 auto;
+    max-width: 1440px;
+    height: 85px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    .header__nav,.header__acc{
+        height: 85px;
+        width: 40%;
+    }
+    .header__logo{
+        height: 85px;
+        width: 20%;
+    }
+}
+.logo{
+    width: 110px;
+    display: flex;
+    align-items: center;
+}
+.header__logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header__nav{
+    display: flex;
+
+}
+.nav__item{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 30px 0 0;
+    p{
+        margin: 0 0 0 5px;
+    }
+
+}
+.nav__active{
+    border-bottom: 5px solid $mintgreen;
+}
+.header__acc{
+    padding: 21px 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+.btn__dark{
+    background-color: $blackgreen;
+    color: #fff;
+    
+    padding: 15px 24px;
+    border-radius: 10px;
+    
+}
+.btn__light{
+    color: $blackgreen;
+    
+    padding: 15px 24px;
+    border-radius: 10px;
+}
+.unlogged{
+    display: none;
+}
+.favorite__link{
+    display: flex;
+    align-items:center;
+    p{
+        margin-left: 6px;
+    }
+}
+.header__profile__link{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-left: 32px;
+}
+.header__profile__img{
+    position: relative;
+    width: 32px;
+    height: auto;
+    margin-right: 5px;
+
+}
+.header__pfp{
+    width: 100%;
+}
+.check__icon{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+}
+.divider{
+    width: 2px;
+    height: 18px;
+    background-color: $blackgreen;
+}
+.logo__transparent{
+    display: none;
+}
+
+
+// Header transparent, add next to 'header__wrapper' class
+
+.header__transparent{
+    .nav__item{
+        color: #fff !important;
+    }
+    .header__acc{
+        a{
+            color: #fff !important;
+        }
+        .divider{
+            background: #fff !important;
+        }
+    }
+    .logo__normal{
+        display: none;
+
+    }
+    .logo__transparent{
+        display: flex;
+    }
+    .nav__active{
+        border-color: #fff !important;
+    }
+}
