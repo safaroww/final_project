@@ -1,12 +1,10 @@
-import { Link } from 'react-router-dom';
+import AddIcon from '@mui/icons-material/Add';
 import AirplanemodeActiveIcon from '@mui/icons-material/AirplanemodeActive';
 import BedIcon from '@mui/icons-material/Bed';
-import AddIcon from '@mui/icons-material/Add';
 import TelegramIcon from '@mui/icons-material/Telegram';
 
 import './Search.scss';
 import { Autocomplete, Divider, Grid, TextField, Typography } from '@mui/material';
-
 
 export const Search = () => {
   return (

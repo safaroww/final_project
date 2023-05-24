@@ -2,6 +2,7 @@ import './App.scss';
 import { Header } from './Header/Header';
 import { Landing } from './pages/Landing/Landing';
 import { Route, Routes } from 'react-router-dom';
+import { SignUp } from './pages/Signup/SignUp';
 import React from 'react';
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <main>
         <Routes>
           <Route path="/" element={<Landing />} />
+          <Route path="sign-up" element={<SignUp />} />
         </Routes>
       </main>
     </>
