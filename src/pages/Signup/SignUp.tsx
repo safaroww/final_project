@@ -8,7 +8,7 @@ import Button from '@mui/material/Button';
 import Checkbox from '@mui/material/Checkbox';
 import IconButton from '@mui/material/IconButton';
 import InputAdornment from '@mui/material/InputAdornment';
-import Logo from '../../Logo/logo.svg';
+import Logo from '../../Logo/Logo.svg';
 import OutlinedInput from '@mui/material/OutlinedInput';
 import SideImg from './assets/images/Rectangle 20.png';
 import Stack from '@mui/material/Stack';
