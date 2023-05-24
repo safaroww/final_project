@@ -1,0 +1,46 @@
+.box {
+    display: flex;
+    gap: 16px;
+    border: #fff;
+    background-color: #fff;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+
+
+    .links {
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 8px;
+
+        .loc {
+            
+            color: #112211;
+            font-family: "Montserrat";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 20px;
+        }
+        .tags {
+            
+            display: flex;
+            gap: 8px;
+            div {
+                position: relative;
+                bottom: 0.1cm;
+                /* This centers the dot horizontally */
+            }
+            a {
+                font-family: "Montserrat";
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 17px;
+                text-decoration: none;
+                cursor: cell;
+            }
+        }
+    }
+}

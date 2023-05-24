@@ -1,6 +1,3 @@
-
-
 export const HotelListing = () => {
-    return <h1>HotelListing</h1>;
-  };
-  
+  return <h1>HotelListing</h1>;
+};
