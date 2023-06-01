@@ -1,0 +1,195 @@
+$blackgreen : #112211;
+$mintgreen : #8DD3BB;
+
+a{
+    color: $blackgreen;
+    text-decoration: none;
+    &:hover{
+        color: $blackgreen;
+        text-decoration: none;
+    }
+}
+.booking__detail{
+    background: #fafafa;
+    padding: 50px 0;
+}
+.booking__detail__path{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px 30px;
+    p{
+        color: salmon;
+    }
+    .current__path{
+        color: $blackgreen;
+        opacity: .75;
+    }
+}
+.booking__detail__wrapper{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px 30px;
+}
+.booking__detail__box{
+
+    padding: 24px;
+    background: #fff;
+    border-radius: 12px;
+}
+.booking__detail__total{
+    width: 35%;
+}
+.booking__detail__options{
+    width: 60%;
+}
+.booking__total__minidetail{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.btm__img{
+    width: 120px;
+    height: 120px;
+    border-radius: 12px;
+
+}
+.btm__details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.hotel__name{
+    opacity: .75;
+    margin: 0;
+    color: $blackgreen;
+}
+.hotel__room__detail{
+    margin: 0;
+    color: $blackgreen;
+}
+.hotel__rating{
+    display: flex;
+    align-items: center;
+
+}
+.hotel__rating__number{
+    padding: 5px 8px;
+    color: $blackgreen;
+    border: 1px solid $mintgreen;
+    border-radius: 5px;
+}
+.hotel__rating__word{
+    margin: 0 0 0 8px;
+    color: $blackgreen;
+
+
+}
+.hotel__rating__review{
+    margin: 0 0 0 8px;
+    color: $blackgreen;
+}
+.booking__total__ad{
+    padding: 16px 0;
+    margin: 16px 0;
+    border-top: 1px solid #1122113a ;
+    border-bottom: 1px solid #1122113a ;
+    p{
+        margin: 0;
+    }
+}
+.booking__total__prices{
+    color: $blackgreen;
+    font-family:  'Montserrat', sans-serif;
+    div{
+        display: flex;
+        justify-content: space-between;
+    }
+    p{
+        margin: 0 0 1rem;
+    }
+}
+.btp__total{
+    border-top: 1px solid #1122113a ;
+    padding: 1rem 0 0;
+    p{
+        margin: 0;
+    }
+}
+.hotel__room__detail{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    p{
+        opacity: 1;
+        max-width: 500px;
+
+    }
+
+}
+.hotel__room__option{
+    font-family:  'Montserrat', sans-serif;
+
+}
+.hotel__room__price{
+    color: salmon;
+}
+.hotel__detail{
+    display: grid;
+    grid-template-columns: 15% 85%;
+    justify-items: center;
+    padding: 16px 0;
+    border: 1px solid $mintgreen;
+    border-radius: 8px;
+    margin: 0 0 40px;
+}
+.hotel__info{
+    color: $blackgreen;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    .hotel__name{
+        opacity: 1;
+    }
+    p{
+        margin: 0;
+    }
+}
+.hotel__logo{
+    width: 44px;
+    height: 44px;
+}
+.loc__ico{
+    font-size: 14px !important;
+}
+.hotel__date__detail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    p{
+        margin: 0;
+        opacity: .6;
+    }
+}
+.check__date{
+    opacity: 1 !important;
+}
+.hdd__middle{
+    display: flex;
+    align-items: center;
+    span{
+        width: 40px;
+        height: 2px;
+        background-color: $blackgreen;
+
+    }
+}
+.ap__ico{
+    font-size: 50px !important;
+}
