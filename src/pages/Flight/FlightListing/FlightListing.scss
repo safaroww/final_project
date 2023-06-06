@@ -1,0 +1,176 @@
+* {
+    font-family: "Montserrat";
+}
+
+.selects {
+    max-width: 1232px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(17, 34, 17, 0.05);
+    border-radius: 16px;
+    display: flex;
+    gap: 24px;
+    padding: 32px 24px;
+    align-items: center;
+    margin-top: 48px;
+
+    .search-icon {
+        padding: 16px;
+        background: #8DD3BB;
+        border-radius: 4px;
+        display: flex;
+        border: none;
+        cursor: pointer;
+    }
+
+    .search-icon:hover {
+        background: #a7fadd;
+        transition: 9ms;
+    }
+}
+
+.main {
+    display: flex;
+    max-width: 1232px;
+    margin: 32px auto 0;
+    gap: 80px;
+
+    .filter {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        & p {
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 20px;
+        }
+
+        .button {
+            border: none;
+            font-size: 14px;
+            border: 1px solid #8DD3BB;
+            padding: 5px;
+            background-color: transparent;
+            margin-left: 125px;
+            cursor: pointer;
+        }
+    }
+
+    .rating {
+        margin-top: 32px;
+
+        .rating-box {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+
+            .ratings {
+                padding: 8px 16px;
+                border: 1px solid #8DD3BB;
+                border-radius: 4px;
+                background: transparent;
+
+            }
+        }
+    }
+
+    .airline {
+        margin-top: 32px;
+
+        .airlines {
+            margin-top: 23px;
+
+            .box {
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+            }
+        }
+    }
+
+    .border {
+        border: 1px solid #112211;
+        opacity: 0.25;
+        width: 100%;
+        margin-top: 28px;
+    }
+
+    .right-side {
+        .buttons {
+            width: 840px;
+            height: 80px;
+            background: #FFFFFF;
+            box-shadow: 0px 4px 16px rgba(17, 34, 17, 0.05);
+            border-radius: 12px;
+            padding: 16px 24px;
+            display: flex;
+            justify-content: space-between;
+
+            .line {
+                width: 0;
+                height: 100%;
+                border: 1px solid #D7E2EE;
+            }
+
+            .other-sort {
+                display: flex;
+                font-size: 16px;
+                line-height: 20px;
+                background-color: white;
+                border: none;
+                font-weight: 500;
+                text-align: start;
+                gap: 12px;
+                align-items: center;
+                cursor: pointer;
+            }
+
+
+            .flight-buttons {
+                width: 160px;
+                height: 45px;
+                font-size: 16px;
+                line-height: 20px;
+                background-color: white;
+                border: none;
+                font-weight: 600;
+                text-align: start;
+                cursor: pointer;
+
+                .price {
+                    opacity: 0.4;
+                    margin-top: 8px;
+                }
+            }
+        }
+    }
+
+    .place {
+        margin-top: 24px;
+        display: flex;
+        justify-content: space-between;
+
+        .showing-places {
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 17px;
+
+            & span {
+                color: #FF8682
+            }
+        }
+
+        .sorts {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            display: flex;
+            gap: 6px;
+
+            span {
+                font-weight: 600;
+            }
+        }
+    }
+}
