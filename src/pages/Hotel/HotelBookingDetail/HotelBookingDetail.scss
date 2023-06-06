@@ -39,6 +39,7 @@ a{
 .booking__detail__box{
 
     padding: 24px;
+    margin: 0 0 40px 0;
     background: #fff;
     border-radius: 12px;
 }
@@ -191,5 +192,71 @@ a{
     }
 }
 .ap__ico{
+    font-size: 50px !important;
+}
+.payment__method{
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    p{
+        margin: 0;
+    }
+    .payment__method__label{
+        max-width: 75%;
+
+    }
+    input{
+        padding: 15px;
+        width: 20px;
+        height: 20px;
+        transform: scale(1);
+        color: black;
+        &:checked{
+            color: black ;
+            accent-color: black;
+        }
+        
+    }
+}
+.payment__moreinfo{
+    display: inline-block;
+    padding: 12px 0 0;
+    text-decoration: underline;
+}
+.active__payment{
+    background-color: $mintgreen;
+    input{
+        color: white !important;
+        background-color: white !important;
+        &:checked{
+            accent-color: white !important;
+        }
+        
+    }
+
+}
+.payment__method__label__card{
+    display: flex;
+    align-items: center;
+}
+.add__new__card__section{
+    padding: 70px 0;
+    color: $mintgreen;
+    border: 2px dashed $mintgreen;
+    border-radius: 12px;
+    margin: 16px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    p{
+        color: $blackgreen;
+        margin: 0;
+
+    }
+}
+.plusbtn{
     font-size: 50px !important;
 }

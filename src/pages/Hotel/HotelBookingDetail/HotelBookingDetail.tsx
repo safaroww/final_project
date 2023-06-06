@@ -3,9 +3,14 @@ import './HotelBookingDetail.scss';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 import Img from './media/Frame 186.png';
 import Img2 from './media/download 1.png';
+import { ReactComponent as VisaSVG } from './media/Visa.svg';
 import ApartmentIcon from '@mui/icons-material/Apartment';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
+import ControlPointIcon from '@mui/icons-material/ControlPoint';
 export const HotelBookingDetail = () => {
+
+  
+
   return (
     <>
       <div className="booking__detail">
@@ -44,6 +49,44 @@ export const HotelBookingDetail = () => {
                   <p className="check__date font-semibold font-20"><span>Friday</span>, <span>Dec 9</span></p>
                   <p className='font-medium font-14'>Check-out</p>
                 </div>
+              </div>
+            </div>
+            <div className="booking__detail__box booking__detail__payment">
+              <form action="">
+                <div className="payment__method active__payment">
+                  <div className="payment__method__label">
+                    <p style={{margin:'0 0 8px 0'}} className='font-bold main-font font-16' >Pay in full</p>
+                    <p className='second-font font-14'>Pay the total and you are all set</p>
+                  </div>
+                  <input className='payment__radio' type="radio" name='payment'/>
+                </div>
+                <div className="payment__method">
+                  <div className="payment__method__label">
+                    <p style={{margin:'0 0 8px 0'}} className='font-bold main-font font-16' >Pay part now, part later</p>
+                    <p className='second-font font-14'>Pay $207.43 now, and the rest ($207.43) will be automatically charged to the same payment method on Nov 14, 2022. No extra fees.
+ </p>
+                    <a className='payment__moreinfo second-font font-medium font-12' href="">More info</a>
+                  </div>
+                  <input className='payment__radio' type="radio" name='payment'/>
+                </div>
+                
+              </form>
+            </div>
+            <div className="booking__detail__box booking__detail__payment">
+            <form action="">
+                <div className="payment__method active__payment">
+                  <div className="payment__method__label__card">
+                    <VisaSVG style={{margin:'0 32px 0 0'}} />
+                    <span className='font-bold main-font font-16' >**** 4321</span>
+                    <span className='second-font font-14'>02/27</span>
+                  </div>
+                  <input className='payment__radio' type="radio" name='payment'/>
+                </div>
+                
+              </form>
+              <div className="add__new__card__section">
+                <ControlPointIcon className='plusbtn'/>
+                <p className='font-medium second-font font-12'>Add a new card</p>
               </div>
             </div>
           </div>
